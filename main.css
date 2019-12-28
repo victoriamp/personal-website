@@ -1,0 +1,24 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	height: 100%;
+	margin: 0;
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	line-height: 20px;
+}
+
+.masthead{
+	height: 100vh;
+	min-height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+	color: white;
+}
+
+#sticky-footer{
+	flex-shrink: none;
+}
