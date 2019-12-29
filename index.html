@@ -12,7 +12,7 @@
 
 	<body id="top">
 		<!--navigation-->
-		<nav class = "navbar navbar-expand-lg text-uppercase fixed-top" id="mainNavigation">
+		<nav class = "navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
 			<div class = "container">
 				<a class="navbar-brand js-scroll-trigger" href=#About>Victoria Pittard</a>
 				<button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" type="button" data-toggle="collapse" data-target="navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="toggle navigation">Menu<i class="fas fa-bars"></i></button>
@@ -38,38 +38,307 @@
 			</div>
 		</nav>
 
-		<!--landing page-->
+		<!--main page-->
 		<header class="masthead text-white text-center">
 			<div class="container d-flex align-items-center flex-column">
 				<img class="masthead-avatar rounded-circle mb-5" id="avatar" src="img/avatar.svg" alt="">
+				<h1 class="masthead-heading mb-0">Victoria Pittard</h1>
 				<div class="divider divider-light">
 					<div class="divider-line"></div>
 					<h2 class="icon">»«</h2>
 					<div class="divider-line"></div>
 				</div>
-				<h1 class="masthead-heading mb-0">Hello, World!</h1>
-				<h1 class="masthead-heading mb-0">My name is <strong>Victoria Pittard</strong></h1>
-				<h3 class="masthead-subheading font-weight-light mb-0">I'm a U3 Computer Science & Biology Student @ <a href="https://www.mcgill.ca">McGill University</a></h3>
+				<h3 class="masthead-subheading font-weight-light mb-0">U3 Computer Science & Biology Student @ <a href="https://www.mcgill.ca">McGill University</a></h3>
+				<!--PLAN: alternate between subheadings, as follows:
+				<h3 class="masthead-subheading font-weight-light mb-0">Mentor @ <a>McGill University Office for Students with Disabilities</a></h3>
+				<h3 class="masthead-subheading font-weight-light mb-0">Computer Science Tutor</h3>
+				<h3 class="masthead-subheading font-weight-light mb-0">Vice President Administration @ <a href="https://www.mcgill-csus.ca">McGill University CSUS</a></h3>
+				<h3 class="masthead-subheading font-weight-light mb-0">Vice President External Affairs @ Student Pharma</h3>
+				-->
 			</div>
 		</header>
 
-		<!--content-->
+		<!--content: about me
 		<section class="page-section text-white mb-0" id="about">
 			<div class="container">
-				<h3 class="page-section-heading text-uppercase text-white">About Me</h3>
+				<h2 class="page-section-heading text-uppercase text-white">About Me</h2>
+			</div>
+		</section>-->
+
+		<!--content: skills-->
+		<section class="page-section text-white mb-0" id="skills">
+			<div class="container">
+				<h2 class="page-section-heading text-uppercase text-white mb-0">Skills</h2>
+				<p class="page-section-subheading text-white">Key technical, laboratory, and transferrable skills acquired through experience and coursework.</p>
+				<div class="divider divider-light">
+					<div class="divider-line"></div>
+					<h2 class="icon">»«</h2>
+					<div class="divider-line"></div>
+				</div>
+				<h5 class="page-section-subheading text-white">Programming & Scripting Languages</h5>
+				<div class="row">
+					<div class="col-sm-4 col-lg-2" id="java">
+						<img class="img-fluid" src="img/skills/java" alt="">
+					</div> 
+					<div class="col-sm-4 col-lg-2" id="python">
+						<img class="img-fluid" src="img/skills/python" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="clojure">
+						<img class="img-fluid" src="img/skills/clojure" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="ocaml">
+						<img class="img-fluid" src="img/skills/ocaml" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="latex">
+						<img class="img-fluid" src="img/skills/latex" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="html">
+						<img class="img-fluid" src="img/skills/html" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="css">
+						<img class="img-fluid" src="img/skills/css" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="sql">
+						<img class="img-fluid" src="img/skills/sql" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="c">
+						<img class="img-fluid" src="img/skills/c" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="js">
+						<img class="img-fluid" src="img/skills/js" alt="">
+					</div>
+				</div>
+
+				<h5 class="page-section-subheading text-white">Technologies</h5>
+				<div class="row">
+					<div class="col-sm-4 col-lg-2" id="ubuntu">
+						<img class="img-fluid" src="img/skills/ubuntu" alt="">
+					</div> 
+					<div class="col-sm-4 col-lg-2" id="windows">
+						<img class="img-fluid" src="img/skills/windows" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="msoffice">
+						<img class="img-fluid" src="img/skills/msoffice" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="google">
+						<img class="img-fluid" src="img/skills/google" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="routeswitch">
+						<img class="img-fluid" src="img/skills/routeswitch" alt="">
+					</div>
+				</div>
+
+				<h5 class="page-section-subheading text-white">Laboratory</h5>
+				<div class="row">
+					<div class="col-sm-4 col-lg-2" id="cloning">
+						<img class="img-fluid" src="img/skills/cloning" alt="">
+					</div> 
+					<div class="col-sm-4 col-lg-2" id="irspec">
+						<img class="img-fluid" src="img/skills/irspec" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="microscopy">
+						<img class="img-fluid" src="img/skills/microscopy" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="gel">
+						<img class="img-fluid" src="img/skills/gel" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="pcr">
+						<img class="img-fluid" src="img/skills/pcr" alt="">
+					</div>
+				</div>
+
+				<h5 class="page-section-subheading text-white">Other</h5>
+				<div class="row">
+					<div class="col-sm-4 col-lg-2" id="engl">
+						<img class="img-fluid" src="img/skills/engl" alt="">
+					</div> 
+					<div class="col-sm-4 col-lg-2" id="french">
+						<img class="img-fluid" src="img/skills/french" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="timemgmt">
+						<img class="img-fluid" src="img/skills/time" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="transcription">
+						<img class="img-fluid" src="img/skills/transcription" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="custserv">
+						<img class="img-fluid" src="img/skills/custserv" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="mentorship">
+						<img class="img-fluid" src="img/skills/mentorship" alt="">
+					</div>
+					<div class="col-sm-4 col-lg-2" id="firstaid">
+						<img class="img-fluid" src="img/skills/firstaid" alt="">
+					</div>
+				</div>
 			</div>
 		</section>
 
+		<!--content: experience-->
 		<section class="page-section text-white mb-0" id="experience">
+			<div class="container">
+				<h2 class="page-section-heading text-uppercase text-white">Experience</h2>
+				<p class="page-section-subheading text-white">Experience in a wide range of work and volunteer environments, ranging from customer service to independent tutoring to summer internships.</p>
+				<div class="divider divider-light">
+					<div class="divider-line"></div>
+					<h2 class="icon">»«</h2>
+					<div class="divider-line"></div>
+				</div>
 
+				<div class="row">
+					<div class="col-md-6 col-lg-4">
+						<div class="experience mx-auto" data-toggle="modal" data-target="#experienceModal1">
+							<div class="experience-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/experience/osd" alt="">
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="experience mx-auto" data-toggle="modal" data-target="#experienceModal2">
+							<div class="experience-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/experience/tutoring" alt="">
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="experience mx-auto" data-toggle="modal" data-target="#experienceModal3">
+							<div class="experience-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/experience/dbs" alt="">
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="experience mx-auto" data-toggle="modal" data-target="#experienceModal4">
+							<div class="experience-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/experience/biodesign" alt="">
+					</div>
+				</div>
+			</div>
 		</section>
 
+		<!--content: coursework-->
+		<section class="page-section text-white mb-0" id="coursework">
+			<div class="container">
+				<h2 class="page-section-heading text-uppercase text-white">Coursework</h2>
+				<p class="page-section-subheading text-white">Key courses taken at McGill University, online, and through previous summer internships.</p>
+				<div class="divider divider-light">
+					<div class="divider-line"></div>
+					<h2 class="icon">»«</h2>
+					<div class="divider-line"></div>
+				</div>
+
+			</div>
+		</section>
+
+		<!--content: leadership & involvement-->
 		<section class="page-section text-white mb-0" id="involvement">
+			<div class="container">
+				<h2 class="page-section-heading text-uppercase text-white">Leadership & Involvement</h2>
+				<p class="page-section-subheading text-white">Involvement and leadership roles in a wide range of social and academic communities.</p>
+				<div class="divider divider-light">
+					<div class="divider-line"></div>
+					<h2 class="icon">»«</h2>
+					<div class="divider-line"></div>
+				</div>
 
+				<div class="row">
+					<div class="col-md-6 col-lg-4">
+						<div class="involvement mx-auto" data-toggle="modal" data-target="#involvementModal1">
+							<div class="involvement-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/involvement/csus" alt="">
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="involvement mx-auto" data-toggle="modal" data-target="#involvementModal2">
+							<div class="involvement-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/involvement/pharma" alt="">
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="involvement mx-auto" data-toggle="modal" data-target="#involvementModal3">
+							<div class="involvement-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/involvement/competemcgill" alt="">
+					</div>
+				</div>
+			</div>
 		</section>
 
+		<!--content: projects-->
 		<section class="page-section text-white mb-0" id="projects">
+			<div class="container">
+				<h2 class="page-section-heading text-white text-uppercase mb-0">Projects</h2>
+				<p class="page-section-subheading text-white">Programming and research based projects from my time at McGill University and independent work.</p>
+				<div class="divider divider-light">
+					<div class="divider-line"></div>
+					<h2 class="icon">»«</h2>
+					<div class="divider-line"></div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-6 col-lg-4">
+						<div class="project mx-auto" data-toggle="modal" data-target="#projectModal1">
+							<div class="project-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/projects/song-sentiment" alt="">
+					</div>
 
+					<div class="col-md-6 col-lg-4">
+						<div class="project mx-auto" data-toggle="modal" data-target="#projectModal2">
+							<div class="project-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/projects/tibullus" alt="">
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="project mx-auto" data-toggle="modal" data-target="#projectModal3">
+							<div class="project-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/projects/website" alt="">
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="project mx-auto" data-toggle="modal" data-target="#projectModal4">
+							<div class="project-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/projects/biodesign" alt="">
+					</div>
+
+					<div class="col-md-6 col-lg-4">
+						<div class="project mx-auto" data-toggle="modal" data-target="#projectModal5">
+							<div class="project-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<i class="fas fa-plus fa-3x"></i>
+							</div>
+						</div>
+						<img class="img-fluid" src="img/projects/cp" alt="">
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<!--footer-->
@@ -80,6 +349,9 @@
 				<small>Email</small>
 			</div>
 		</footer>
+
+		<!--modals-->
+
 
 		<!--scripts-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

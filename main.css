@@ -23,11 +23,32 @@ body{
 }
 
 
+nav{
+	background-color: #474D50;
+	color: #EAE7F6;
+}
+
+a{
+	color: #EAE7F6;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #EAE7F6;
+}
 
 img{
 	vertical-align: middle;
 	border-style: none;
 	overflow: hidden;
+}
+
+section{
+	background-color: #303A3A
+}
+
+section p{
+	font-size: 1.25rem;
 }
 
 .masthead{
@@ -41,6 +62,11 @@ img{
 .masthead-avatar{
 	max-width: 40%;
 	height: auto;
+}
+
+section .divider{
+	justify-content: left;
+	align-items: left;
 }
 
 .divider{
