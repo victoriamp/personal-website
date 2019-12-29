@@ -1,24 +1,73 @@
+:root{
+	--bg-primary: #303A3A;
+	--bg-secondary: #474D50;
+	--text-primary: #DDE5E9;
+	--text-secondary: #EAE7F6;
+	--text-info: #FDF0D5;
+}
+
 html{
 	scroll-behavior: smooth;
 }
 
 body{
-	height: 100%;
+	font-weight: lighter;
 	margin: 0;
-	font-size: 14px;
-	font-family: "Lato", sans-serif;
-	line-height: 20px;
+	font-family: "Lato", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	background-color: #fff;
+}
+
+
+
+img{
+	vertical-align: middle;
+	border-style: none;
+	overflow: hidden;
 }
 
 .masthead{
-	height: 100vh;
-	min-height: 500px;
+	padding-top: 100px;
 	background-size: cover;
 	background-position: center;
-	background-color: black;
-	color: white;
+	background-color: #303A3A;
+	color: #DDE5E9;
+}
+
+.masthead-avatar{
+	max-width: 40%;
+	height: auto;
+}
+
+.divider{
+	margin: 1.25rem 0 1.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.divider-line{
+	width: 100%;
+	max-width: 7rem;
+	height: 0.25rem;
+	background-color: white;
+	border-radius: 1rem;
+	border-color: white !important;
+}
+
+.page-section{
+	padding: 6rem 0;
+	font-size: 2.25rem;
+	line-height: 2rem;
 }
 
 #sticky-footer{
 	flex-shrink: none;
+	background-color: #474D50;
+	color: #DDE5E9;
 }

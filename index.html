@@ -4,33 +4,34 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<!--stylesheets-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="main.css">
 	</head>
 
-	<body>
+	<body id="top">
 		<!--navigation-->
-		<nav class = "navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+		<nav class = "navbar navbar-expand-lg text-uppercase fixed-top" id="mainNavigation">
 			<div class = "container">
-				<button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+				<a class="navbar-brand js-scroll-trigger" href=#About>Victoria Pittard</a>
+				<button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" type="button" data-toggle="collapse" data-target="navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="toggle navigation">Menu<i class="fas fa-bars"></i></button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class = "navbar-nav ml-auto">
-						<li class = "nav-item active">
-							<a class = "nav-link" href = "#">
-								Home
-								<span class="sr-only">(current)</span>
-							</a>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item mx-0 mx-lg-1">
+							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
 						</li>
-						<li class = "nav-item">
-							<a class="nav-link" href="#">Involvement</a>
+						<li class="nav-item mx-0 mx-lg-1">
+							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experience">Experience</a>
 						</li>
-						<li class = "nav-item">
-							<a class="nav-link" href="#">Skills</a>
+						<li class="nav-item mx-0 mx-lg-1">
+							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#involvement">Leadership & Involvement</a>
 						</li>
-						<li class = "nav-item">
-							<a class="nav-link" href="#">Projects</a>
+						<li class="nav-item mx-0 mx-lg-1">
+							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">Projects</a>
+						</li>
+						<li class="nav-item mx-0 mx-lg-1">
+							<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
 						</li>
 					</ul>
 				</div>
@@ -38,21 +39,41 @@
 		</nav>
 
 		<!--landing page-->
-		<header class="masthead">
-			<div class="container h-100">
-				<div class="row h-100 align-items-center">
-					<div class="col-12 text-center">
-						<h1 class="font-weight-light">Victoria Pittard</h1>
-						<p class="lead">U3 Computer Science & Biology Student at McGill University</p>
-					</div>
+		<header class="masthead text-white text-center">
+			<div class="container d-flex align-items-center flex-column">
+				<img class="masthead-avatar rounded-circle mb-5" id="avatar" src="img/avatar.svg" alt="">
+				<div class="divider divider-light">
+					<div class="divider-line"></div>
+					<h2 class="icon">»«</h2>
+					<div class="divider-line"></div>
 				</div>
+				<h1 class="masthead-heading mb-0">Hello, World!</h1>
+				<h1 class="masthead-heading mb-0">My name is <strong>Victoria Pittard</strong></h1>
+				<h3 class="masthead-subheading font-weight-light mb-0">I'm a U3 Computer Science & Biology Student @ <a href="https://www.mcgill.ca">McGill University</a></h3>
 			</div>
 		</header>
 
 		<!--content-->
+		<section class="page-section text-white mb-0" id="about">
+			<div class="container">
+				<h3 class="page-section-heading text-uppercase text-white">About Me</h3>
+			</div>
+		</section>
+
+		<section class="page-section text-white mb-0" id="experience">
+
+		</section>
+
+		<section class="page-section text-white mb-0" id="involvement">
+
+		</section>
+
+		<section class="page-section text-white mb-0" id="projects">
+
+		</section>
 
 		<!--footer-->
-		<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+		<footer id="sticky-footer" class="py-4 text-white-50">
 			<div class = "container text-center">
 				<small>Github</small>
 				<small>LinkedIn</small>
