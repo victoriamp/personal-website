@@ -2,12 +2,13 @@
 Personal website created as practice with HTML, CSS, JavaScript, and Bootstrap.
 
 ## in progress:
-- adding content
-- CSS formatting of icons
+- experience, coursework, leadership & involvement, projects content
 - CSS color scheme
 
-## issues for later:
-- navbar menu
-- icon display (from computer, rather than website)
-- rotate subheadings
+## issues:
+- navbar menu (dropdown doesn't work, some links need updating)
+- icon display (C doesn't appear, need a SQL icon)
+- activate/deactivate subsections with scrolling
+- rotate through subheadings (about section)
 - add modals
+- add icon toggle descriptions
