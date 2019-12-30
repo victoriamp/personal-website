@@ -76,8 +76,10 @@ section .divider{
 	float: left;
 }
 
-.list-inline-icon i{
+.list-inline-icon span, .list-inline-icon i{
 	color: black;
+	width: 36px;
+	height: 36px;
 }
 
 .list-inline-img .icon{
