@@ -51,6 +51,24 @@ section p{
 	font-size: 1.25rem;
 }
 
+footer .container{
+	align-items: center;
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+
+.table .list-inline-icons{
+	list-style: none;
+	padding-top: 20px;
+}
+
+.table .list-inline-icons .list-inline-icon{
+	display: inline;
+}
+
 .masthead{
 	padding-top: 100px;
 	background-size: cover;
